@@ -50,6 +50,8 @@ body{
     margin: 20px 0px 0px 65px;
     padding: 15px;
     clear: both;
+    border-radius: 50px;
+
 }
 #content > .chicken >section{
     text-align: center;
@@ -88,6 +90,25 @@ body{
         font-size: 5vw;
         font-weight: bolder;
     }
+    #nav-list span{
+        text-align: center;
+    }
+    #nav-list{
+        margin-top: 10px;
+    }
+    #nav-list a{
+        color: #d1bcc4;
+        text-align:center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #nav-list a:hover{
+        background:#df9696;
+    }
+    #nav-list a span{
+        font: 1.8em;
+        font-weight: bold;
+    }
 }
 @media (min-width:300px) and (max-width:479px){
     .navbar-brand > p{
@@ -98,5 +119,23 @@ body{
     #content .chicken{
         margin: 15px;
     }
-    
+    #nav-list span{
+        text-align: center;
+    }
+    #nav-list{
+        margin-top: 10px;
+    }
+    #nav-list a{
+        color: #d1bcc4;
+        text-align:center;
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #nav-list a:hover{
+        background:#df9696;
+    }
+    #nav-list a span{
+        font: 1.8em;
+        font-weight: bold;
+    }
 }
