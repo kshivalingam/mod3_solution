@@ -1,0 +1,102 @@
+ *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+#header-nav{
+    background: #2C3A47;
+    border: 2px solid black;
+}
+.navbar-brand > p{
+    color: white;
+    font-size: 2em;
+    font-weight: bolder;
+}
+#menu{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 3em;
+    background:yellow;
+    clear: both;
+}
+#nav-list span{
+    text-align: center;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: #d1bcc4;
+    text-align:center;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#nav-list a:hover{
+    background:#df9696;
+}
+#nav-list a span{
+    font: 1.8em;
+}
+#content{
+    width: 100%;
+    
+}
+#content .chicken{
+    width: 90%;
+    position: relative;
+    background: #2C3A47;
+    color: white;
+    margin: 20px 0px 0px 65px;
+    padding: 15px;
+    clear: both;
+}
+#content > .chicken >section{
+    text-align: center;
+    font-size: 30px;
+}
+
+@media (min-width:992px) and (max-width:1199px){
+    #content .chicken{
+        margin: 1em 0 0 4em;
+        padding: 15px;
+    }
+    .navbar-brand > p{
+        color: white;
+        font-size: 3vw;
+        font-weight: bolder;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    #content .chicken{
+        margin: 20px 0 0 45px;
+        padding-left: 20px;
+    }
+    .navbar-brand > p{
+        color: white;
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+}
+@media (min-width:480px) and (max-width:767px){
+    #content .chicken{
+        margin: 25px;
+        padding:0px 0px 15px 15px;
+    }
+    .navbar-brand > p{
+        color: white;
+        font-size: 5vw;
+        font-weight: bolder;
+    }
+}
+@media (min-width:300px) and (max-width:479px){
+    .navbar-brand > p{
+        color: white;
+        font-size: 5vw;
+        font-weight: bolder;
+    }
+    #content .chicken{
+        margin: 15px;
+    }
+    
+}
